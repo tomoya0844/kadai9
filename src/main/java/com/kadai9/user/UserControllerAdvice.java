@@ -10,7 +10,6 @@ import java.time.ZonedDateTime;
 import java.util.Map;
 
 @ControllerAdvice
-
 public class UserControllerAdvice {
     @ExceptionHandler(UserNotFoundException.class)
     public ResponseEntity<Map<String, String>> handleUserNotFoundException(UserNotFoundException e, HttpServletRequest request) {

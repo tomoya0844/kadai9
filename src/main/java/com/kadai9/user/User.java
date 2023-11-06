@@ -1,14 +1,14 @@
 package com.kadai9.user;
 
 public class User {
-   private int id;
-   private  String name;
-   private String Occupation;
+    private int id;
+    private String name;
+    private String occupation;
 
     public User(int id, String name, String occupation) {
         this.id = id;
         this.name = name;
-        Occupation = occupation;
+        this.occupation = occupation;
     }
 
     public int getId() {
@@ -20,6 +20,6 @@ public class User {
     }
 
     public String getOccupation() {
-        return Occupation;
+        return occupation;
     }
 }
