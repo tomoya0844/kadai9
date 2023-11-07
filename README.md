@@ -9,3 +9,8 @@
 **mysplのupdate〜**
 を使ってみた
 <img width="1565" alt="スクリーンショット 2023-11-05 23 21 55" src="https://github.com/tomoya0844/kadai9/assets/146510558/455dc5c9-4448-4286-98aa-610d34168c53">
+
+
+# checkstyle を使用したけ結果
+
+[動作結果](<http://localhost:63342/user/build/reports/checkstyle/main.html?_ijt=oc0rkjjk75hk82j9mlfdma4olr&_ij_reload=RELOAD_ON_SAVE#N65662>)
