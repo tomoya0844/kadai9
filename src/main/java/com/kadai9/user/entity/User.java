@@ -1,4 +1,4 @@
-package com.kadai9.user;
+package com.kadai9.user.entity;
 
 public class User {
     private int id;
