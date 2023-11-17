@@ -1,5 +1,6 @@
-package com.kadai9.user;
+package com.kadai9.user.mapper;
 
+import com.kadai9.user.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
