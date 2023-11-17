@@ -21,4 +21,12 @@ public class UserService {
             return user.get();
         } else throw new UserNotFoundException("userID:" + id + "not found");
     }
+
+    public User insert(String name, String occupation) {
+        User user = User.createUser(name, occupation);
+        userMapper.insert(user);
+        return user;
+    }
+
+
 }
